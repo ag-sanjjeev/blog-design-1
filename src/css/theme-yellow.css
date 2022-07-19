@@ -1,23 +1,23 @@
 body {
-  background-color: #e40044;
-  color: #e40044;
+  background-color: #ffeb30;
+  color: #ffeb30;
 }
 
 .header .fa-home {
-  color: white;
+  color: #1b1b1b;
 }
 
 .header h1 {
-  color: white;
+  color: #1b1b1b;
 }
 
 .theme-header {
-  color: white;
+  color: #1b1b1b;
 }
 
 .search-box-container #search-box {
-  background-color: white;
-  color: #1b1b1b;
+  background-color: #1b1b1b;
+  color: white;
 }
 
 .search-box-container .input-group-text {
@@ -25,54 +25,54 @@ body {
 }
 
 .search-box-container .fa-search {
-  color: #e40044;
+  color: #1b1b1b;
 }
 
 .post-masonary {
-  background-color: #e40044;
-  color: #1b1b1b;
+  background-color: #ffeb30;
+  color: white;
 }
 
 .post-masonary-header h3 {
-  color: white;
+  color: #1b1b1b;
 }
 
 footer {
-  color: white;
+  color: #1b1b1b;
 }
 
 footer i.fa-at {
-  color: white;
+  color: #1b1b1b;
 }
 
 footer a.footer-link {
-  color: white;
+  color: #1b1b1b;
 }
 
 .accordion .accordion-item {
-  background-color: white;
+  background-color: #1b1b1b;
 }
 
 .accordion .accordion-button.collapsed {
-  background-color: white;
-  color: #1b1b1b;
+  background-color: #1b1b1b;
+  color: white;
 }
 
 .card .card-header {
-  color: #1b1b1b;
+  color: white;
 }
 
 .card .card-body {
-  background-color: white;
-  color: #1b1b1b;
+  background-color: #1b1b1b;
+  color: white;
 }
 
 .post-container .post-heading {
-  color: #e40044;
+  color: #1b1b1b;
 }
 
 .post-container small {
-  color: #e40044;
+  color: #1b1b1b;
 }
 
 .post-container .post-body {
@@ -81,27 +81,27 @@ footer a.footer-link {
 }
 
 .post-container .post-categories p {
-  color: #e40044;
+  color: #1b1b1b;
 }
 
 .fa-share {
-  color: #e40044;
+  color: #1b1b1b;
 }
 
 .post-share {
-  border-color: #e40044;
+  border-color: #1b1b1b;
 }
 
 .post-share .btn-text {
-  color: #e40044;
+  color: #1b1b1b;
 }
 
 hr {
-  background-color: white;
+  background-color: #1b1b1b;
 }
 
 .badge.rounded-pill {
-  background-color: #e40044;
-  color: white;
+  background-color: #ffeb30;
+  color: #1b1b1b;
 }
-/*# sourceMappingURL=theme-default.css.map */
+/*# sourceMappingURL=theme-yellow.css.map */

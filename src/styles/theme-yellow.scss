@@ -1,8 +1,8 @@
 @import 'variables';
 
-$colorVarient1 : $pinkred;
-$colorVarient2 : $white;
-$colorVarient3 : $black;
+$colorVarient1 : $yellow;
+$colorVarient2 : $black;
+$colorVarient3 : $white;
 $colorVarient4 : $lightgray;
 
 body {
@@ -38,7 +38,7 @@ body {
     }
 
     .fa-search {
-        color: $colorVarient1;
+        color: $colorVarient2;
     }
 
 }
@@ -90,28 +90,28 @@ footer {
 
 .post-container {
     .post-heading {
-        color: $colorVarient1;
+        color: $colorVarient2;
     }
     small {
-        color: $colorVarient1;
+        color: $colorVarient2;
     }
     .post-body {
-        background-color: $colorVarient2;
-        color: $colorVarient3;
+        background-color: $colorVarient3;
+        color: $colorVarient2;
     }
     .post-categories p {
-        color: $colorVarient1;
+        color: $colorVarient2;
     }
 }
 
 .fa-share {
-    color: $colorVarient1;
+    color: $colorVarient2;
 }
 
 .post-share {
-    border-color: $colorVarient1;
+    border-color: $colorVarient2;
     .btn-text {
-        color: $colorVarient1;
+        color: $colorVarient2;
     }
 }
 

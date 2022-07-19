@@ -19,7 +19,7 @@
 	<title>Home</title>
 
 	<!-- ./ -->
-	
+
 </head>
 
 <body>
@@ -32,17 +32,18 @@
 				<i class="fa fa-home fa-5x"></i>
 				<h1 class="display-3 text-uppercase fw-bold">Blog Name</h1>
 			</div>
-			<div class="col d-flex justify-content-center align-items-center mb-3">
-				<h3>Choose Theme</h3>
+			<div class="col d-flex justify-content-center align-items-center mb-3 theme-container">
+				<h3 class="theme-header">Choose Theme</h3>
 				<ul class="theme-list">
 					<li class="theme" data-theme="theme-default"></li>
 					<li class="theme" data-theme="theme-dark"></li>
 					<li class="theme" data-theme="theme-yellow"></li>
+					<li class="theme" data-theme="theme-blue"></li>
 					<li class="theme" data-theme="theme-green"></li>
 				</ul>
 			</div>
 			<div class="col">				
-				<form action="https://blogname.blogspot.com" method="get" class="input-group mb-3">
+				<form action="https://blogname.blogspot.com" method="get" class="input-group search-box-container mb-3">
 					<input type="text" name="q" id="search-box" class="form-control" placeholder="Search over blog ..." autofocus="" required=""/>
 					<button type="submit" class="input-group-text">
 						<i class="fa fa-search"></i>
@@ -68,21 +69,21 @@
 					<div id="tagCloudCollapse" class="accordion-collapse collapse" aria-labelledby="tagCloudHeading"
 						data-bs-parent="#tagCloud">
 						<div class="accordion-body">
-							<a href="#" class="text-decoration-none badge rounded-pill bg-primary">Lorem, ipsum.</a>
-							<a href="#" class="text-decoration-none badge rounded-pill bg-primary">Primary</a>
-							<a href="#" class="text-decoration-none badge rounded-pill bg-primary">Primary</a>
-							<a href="#" class="text-decoration-none badge rounded-pill bg-primary">Lorem, ipsum dolor.</a>
-							<a href="#" class="text-decoration-none badge rounded-pill bg-primary">Primary</a>
-							<a href="#" class="text-decoration-none badge rounded-pill bg-primary">Primary</a>
-							<a href="#" class="text-decoration-none badge rounded-pill bg-primary">Primary</a>
-							<a href="#" class="text-decoration-none badge rounded-pill bg-primary">Lorem.</a>
-							<a href="#" class="text-decoration-none badge rounded-pill bg-primary">Primary</a>
-							<a href="#" class="text-decoration-none badge rounded-pill bg-primary">Primary</a>
-							<a href="#" class="text-decoration-none badge rounded-pill bg-primary">Lorem, ipsum dolor.</a>
-							<a href="#" class="text-decoration-none badge rounded-pill bg-primary">Primary</a>
-							<a href="#" class="text-decoration-none badge rounded-pill bg-primary">Lorem, ipsum.</a>
-							<a href="#" class="text-decoration-none badge rounded-pill bg-primary">Primary</a>
-							<a href="#" class="text-decoration-none badge rounded-pill bg-primary">Primary</a>
+							<a href="#" class="text-decoration-none badge rounded-pill">Lorem, ipsum.</a>
+							<a href="#" class="text-decoration-none badge rounded-pill">Primary</a>
+							<a href="#" class="text-decoration-none badge rounded-pill">Primary</a>
+							<a href="#" class="text-decoration-none badge rounded-pill">Lorem, ipsum dolor.</a>
+							<a href="#" class="text-decoration-none badge rounded-pill">Primary</a>
+							<a href="#" class="text-decoration-none badge rounded-pill">Primary</a>
+							<a href="#" class="text-decoration-none badge rounded-pill">Primary</a>
+							<a href="#" class="text-decoration-none badge rounded-pill">Lorem.</a>
+							<a href="#" class="text-decoration-none badge rounded-pill">Primary</a>
+							<a href="#" class="text-decoration-none badge rounded-pill">Primary</a>
+							<a href="#" class="text-decoration-none badge rounded-pill">Lorem, ipsum dolor.</a>
+							<a href="#" class="text-decoration-none badge rounded-pill">Primary</a>
+							<a href="#" class="text-decoration-none badge rounded-pill">Lorem, ipsum.</a>
+							<a href="#" class="text-decoration-none badge rounded-pill">Primary</a>
+							<a href="#" class="text-decoration-none badge rounded-pill">Primary</a>
 						</div>
 					</div>
 				</div>
@@ -101,7 +102,7 @@
 					<div id="archieveCollapse" class="accordion-collapse collapse" aria-labelledby="archieveHeading"
 						data-bs-parent="#archieve">
 						<div class="accordion-body">
-							<span class="badge rounded-pill bg-primary">Primary</span>
+							<span class="badge rounded-pill">Primary</span>
 						</div>
 					</div>
 				</div>
@@ -207,7 +208,7 @@
 			</div>
 			<div class="col text-md-end text-center">
 				<i class="fa fa-at"></i>
-				<a href="#" class="text-decoration-none text-light">blogname.blogspot.com</a>
+				<a href="#" class="text-decoration-none footer-link">blogname.blogspot.com</a>
 			</div>
 		</footer>
 	</main>

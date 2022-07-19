@@ -1,6 +1,6 @@
 body {
-  background-color: #e40044;
-  color: #e40044;
+  background-color: #1ea51e;
+  color: #1ea51e;
 }
 
 .header .fa-home {
@@ -25,11 +25,11 @@ body {
 }
 
 .search-box-container .fa-search {
-  color: #e40044;
+  color: #1ea51e;
 }
 
 .post-masonary {
-  background-color: #e40044;
+  background-color: #1ea51e;
   color: #1b1b1b;
 }
 
@@ -68,11 +68,11 @@ footer a.footer-link {
 }
 
 .post-container .post-heading {
-  color: #e40044;
+  color: #1ea51e;
 }
 
 .post-container small {
-  color: #e40044;
+  color: #1ea51e;
 }
 
 .post-container .post-body {
@@ -81,19 +81,19 @@ footer a.footer-link {
 }
 
 .post-container .post-categories p {
-  color: #e40044;
+  color: #1ea51e;
 }
 
 .fa-share {
-  color: #e40044;
+  color: #1ea51e;
 }
 
 .post-share {
-  border-color: #e40044;
+  border-color: #1ea51e;
 }
 
 .post-share .btn-text {
-  color: #e40044;
+  color: #1ea51e;
 }
 
 hr {
@@ -101,7 +101,7 @@ hr {
 }
 
 .badge.rounded-pill {
-  background-color: #e40044;
+  background-color: #1ea51e;
   color: white;
 }
-/*# sourceMappingURL=theme-default.css.map */
+/*# sourceMappingURL=theme-green.css.map */
