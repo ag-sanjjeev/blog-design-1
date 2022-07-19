@@ -1,0 +1,32 @@
+@import 'variables';
+
+body {
+    background-color: $pinkred;
+    color: $white;
+}
+
+ul.theme-list {
+        
+    li.theme {
+        cursor: pointer;
+        background-color: $white;
+        border: 2px solid $white;        
+    }
+
+    li.theme[data-theme="theme-default"] {
+        background-color: $pinkred;
+    }
+    li.theme[data-theme="theme-dark"] {
+        background-color: $black;
+    }
+    li.theme[data-theme="theme-yellow"] {
+        background-color: $yellow;
+    }
+    li.theme[data-theme="theme-green"] {
+        background-color: $green;
+    }
+}
+
+:is(.card, .card-header, .card-body) {
+    color: $black;
+}

@@ -1,0 +1,2 @@
+body{background-color:#e40044;color:#fff}ul.theme-list li.theme{cursor:pointer;background-color:#fff;border:2px solid #fff}ul.theme-list li.theme[data-theme="theme-default"]{background-color:#e40044}ul.theme-list li.theme[data-theme="theme-dark"]{background-color:#1b1b1b}ul.theme-list li.theme[data-theme="theme-yellow"]{background-color:#fbff22}ul.theme-list li.theme[data-theme="theme-green"]{background-color:#00db00}:is(.card,.card-header,.card-body){color:#1b1b1b}
+/*# sourceMappingURL=theme-default.min.css.map */
